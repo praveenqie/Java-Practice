@@ -45,5 +45,6 @@ public class longestCommonPrefix {
                 .reduce("", (acc, c) -> acc + c);
 
         System.out.println(prefix);
+
     }
 }
